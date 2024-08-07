@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('../img/weather_background.avif'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-image: url('../img/window.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    border-radius: 45px; /* Increased curvature */
+    display: inline-block;
+    color: black; /* Ensure text is readable inside the container */
+    width: 70%;
+    max-width: 350px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+h1, h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 30px; /* Increased curvature */
+    border: 1px solid #ddd;
+    width: 50%; /* Adjust width to be narrower */
+    max-width: 350px; /* Set a maximum width */
+    font-size: 0.cap;
+    text-align: center; /* Center text inside the textbox */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.5);
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 25px; /* Rounded button corners */
+    border: none;
+    background-color: lightpink;
+    color: white;
+    cursor: pointer;
+    width: 75%; /* Full width button */
+    font-size: 1.2em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: pink;
+}
+
+.weather-icon {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+h3, p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
