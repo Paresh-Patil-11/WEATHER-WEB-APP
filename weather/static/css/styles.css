@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url('../img/weather_background.avif'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url('weather/static/img/weather_background.avif'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    background-image: url('../img/window.jpeg');
+    background-image: url('weather/static/img/window.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
